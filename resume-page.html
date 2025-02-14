@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Azeredo - Resume</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --secondary-color: #6c757d;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .resume-header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .skill-badge {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            margin: 0.25rem;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .contact-info i {
+            color: var(--primary-color);
+            margin-right: 0.5rem;
+        }
+
+        .experience-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .experience-date {
+            color: var(--secondary-color);
+            font-style: italic;
+        }
+
+        .print-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        @media print {
+            .print-button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Caio Azeredo</h1>
+                    <h3>Full Stack Developer & Data Analyst</h3>
+                    <p>Rio de Janeiro, Brasil</p>
+                </div>
+                <div class="col-md-4 contact-info">
+                    <p><i class="fas fa-envelope"></i> caiosilvaazeredo@hotmail.com</p>
+                    <p><i class="fas fa-phone"></i> +55 21 97559-2061</p>
+                    <p><i class="fab fa-linkedin"></i> www.linkedin.com/in/caiosazeredo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <section class="mb-5">
+            <h2 class="section-title">Professional Summary</h2>
+            <p>Full-Stack Developer and Systems Analyst with 10 years of experience in software development, specializing in AI integration, data analysis, and educational technology. Proven track record in developing web applications using multiple programming languages and frameworks.</p>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skill-section">
+                <h5>Languages</h5>
+                <div>
+                    <span class="skill-badge">Java</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">C#</span>
+                    <span class="skill-badge">TypeScript</span>
+                    <span class="skill-badge">PHP</span>
+                    <span class="skill-badge">Ruby</span>
+                </div>
+                <h5 class="mt-3">Frameworks</h5>
+                <div>
+                    <span class="skill-badge">Angular</span>
+                    <span class="skill-badge">React</span>
+                    <span class="skill-badge">Vue.js</span>
+                    <span class="skill-badge">Flask</span>
+                    <span class="skill-badge">Django</span>
+                    <span class="skill-badge">Spring Boot</span>
+                    <span class="skill-badge">Express</span>
+                    <span class="skill-badge">Flutter</span>
+                </div>
+                <h5 class="mt-3">Databases & Tools</h5>
+                <div>
+                    <span class="skill-badge">MySQL</span>
+                    <span class="skill-badge">PostgreSQL</span>
+                    <span class="skill-badge">MongoDB</span>
+                    <span class="skill-badge">Firebase</span>
+                    <span class="skill-badge">Power BI</span>
+                    <span class="skill-badge">AWS</span>
+                    <span class="skill-badge">Azure</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-item">
+                <h4>RNP</h4>
+                <p class="experience-date">July 2024 - Present</p>
+                <p class="fw-bold">Full Stack Developer & Data Analyst</p>
+                <ul>
+                    <li>Develop and maintain full-stack web applications using Python, Flask, and Flutter</li>
+                    <li>Implement AI solutions for process automation and user interaction</li>
+                    <li>Create interactive dashboards using Power BI and SQL</li>
+                    <li>Automate reporting processes using Python</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h4>Fundacao Coppetec</h4>
+                <p class="experience-date">July 2022 - June 2024</p>
+                <p class="fw-bold">Senior Full-Stack Developer</p>
+                <ul>
+                    <li>Developed internal systems using Java, JavaScript, and Python</li>
+                    <li>Managed version control and code deployment with GitLab</li>
+                    <li>Integrated AI solutions with existing systems</li>
+                    <li>Led development team and managed project priorities</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <h4>Senac RJ</h4>
+                <p class="experience-date">February 2023 - Present</p>
+                <p class="fw-bold">Programming Instructor</p>
+                <ul>
+                    <li>Teach full-stack development courses in JavaScript, TypeScript, Python, Java, and C#</li>
+                    <li>Develop practical course materials based on real industry cases</li>
+                    <li>Train students in data analysis using Power BI and Excel</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="section-title">Education</h2>
+            <ul class="list-unstyled">
+                <li class="mb-3">
+                    <h5>Master's in Systems and Computer Engineering</h5>
+                    <p>UFRJ (2022-2024)</p>
+                </li>
+                <li class="mb-3">
+                    <h5>Bachelor's in Information Systems</h5>
+                    <p>Universidade Veiga de Almeida (2017-2021)</p>
+                </li>
+                <li class="mb-3">
+                    <h5>Technical Degree in Computer Science</h5>
+                    <p>CEFET/RJ (2014-2016)</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="section-title">Publications</h2>
+            <ul>
+                <li>Elementetris: A Digital Game Supporting Chemistry Learning (SBGAMES 2023)</li>
+                <li>Sea Hunter: A Game Supporting Basic Cartesian Plane Concepts (SBGAMES 2023)</li>
+            </ul>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="section-title">Languages</h2>
+            <ul class="list-unstyled">
+                <li>English: Native/Bilingual</li>
+                <li>Spanish: Professional Working</li>
+                <li>French: Elementary</li>
+            </ul>
+        </section>
+    </div>
+
+    <button class="btn btn-primary print-button" onclick="window.print()">
+        <i class="fas fa-print"></i> Print Resume
+    </button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add smooth scrolling to all links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Add hover effect to skill badges
+            document.querySelectorAll('.skill-badge').forEach(badge => {
+                badge.addEventListener('mouseover', function() {
+                    this.style.transform = 'scale(1.1)';
+                    this.style.transition = 'transform 0.2s';
+                });
+                badge.addEventListener('mouseout', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
